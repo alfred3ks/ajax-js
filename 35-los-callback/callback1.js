@@ -45,7 +45,7 @@ const getUser = (id, callback) => {
   })
 
   if (!user) {
-    callback(`Not exist a user with id ${id}`);
+    callback(`Doesn't exist an user with id ${id}`);
   } else {
     callback(null, user);
   }
